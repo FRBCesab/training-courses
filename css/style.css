@@ -1,0 +1,9 @@
+div.box-info p {
+  padding: 1em;
+  margin: 20px 0;
+  background: #DDECF6;
+  border: 1px solid #CEE9F2;
+  border-radius: 10px;
+  color: #487997;
+  border-left: 5px solid #487997;
+}

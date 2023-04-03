@@ -1,0 +1,22 @@
+name: "training-courses"
+title: "FRB-CESAB Training Courses"
+description: |
+  This website centralises all training courses provided by the FRB-CESAB and its partners
+base_url: https://frbcesab.github.io/training-courses
+favicon: img/favicon.png
+output_dir: "."
+navbar:
+  logo:
+    image: img/logo-CESAB.png
+    href: https://frbcesab.github.io/training-courses
+  source_url: true
+  right:
+    - icon: fa fa-home
+      href: index.html
+    - icon: fa fa-wrench
+      href: installation.html
+    - icon: fab fa-github
+      href: https://github.com/frbcesab/training-courses/
+output:
+  distill::distill_article:
+    css: css/style.css
