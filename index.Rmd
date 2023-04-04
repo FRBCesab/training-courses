@@ -14,104 +14,9 @@ author:
     orcid_id: 0000-0002-6346-9194
   - name: "Joseph Langridge"
     url: https://www.researchgate.net/profile/Joseph-Langridge
-    affiliation: FRB
+    affiliation: FRB-CESAB
     affiliation_url: https://www.fondationbiodiversite.fr
     orcid_id: 0000-0002-9427-439X
-  - name: "Damien Beillouin"
-    url: https://www.researchgate.net/profile/Damien-Beillouin
-    affiliation: Cirad HortSys
-    affiliation_url: https://ur-hortsys.cirad.fr/
-    orcid_id: 0000-0003-2014-3482
-  - name: "Jonathan Bonfanti"
-    url: https://www.researchgate.net/profile/Jonathan-Bonfanti
-    affiliation: Cirad HortSys
-    affiliation_url: https://ur-hortsys.cirad.fr/
-    orcid_id: 0000-0003-0049-4410
-  - name: "Iago Bonnici"
-    url: https://isem-evolution.fr/en/membre/bonnici/
-    affiliation: CNRS ISEM
-    affiliation_url: https://isem-evolution.fr/en/
-    orcid_id: 0000-0003-2934-351X
-  - name: "Vincent Calcagno"
-    url: https://vcalcagnoresearch.wordpress.com/
-    affiliation: INRAE Institut Sophia Agrobiotech
-    affiliation_url: https://www6.paca.inrae.fr/institut-sophia-agrobiotech
-    orcid_id: 0000-0002-5781-967X
-  - name: "C. Sylvie Campagne"
-    url: https://csylviecampagne.com/
-    affiliation: Station Biologique de Roscoff
-    affiliation_url: https://www.sb-roscoff.fr/en
-    orcid_id: 0000-0002-2566-7827
-  - name: "Stéphane Dray"
-    url: https://lbbe.univ-lyon1.fr/fr/annuaires-des-membres/dray-stephane
-    affiliation: CNRS LBBE
-    affiliation_url: https://lbbe.univ-lyon1.fr/fr
-    orcid_id: 0000-0003-0153-1105
-  - name: "Emanuel A. Fronhofer"
-    url: https://www.emanuelfronhofer.net/
-    affiliation: CNRS ISEM
-    affiliation_url: https://isem-evolution.fr/en/
-    orcid_id: 0000-0002-2219-784X
-  - name: "Olivier Gimenez"
-    url: https://oliviergimenez.github.io
-    affiliation: CNRS CEFE
-    affiliation_url: https://www.cefe.cnrs.fr/fr/
-    orcid_id: 0000-0001-7001-5142
-  - name: "Frédéric Gosselin"
-    url: https://cv.archives-ouvertes.fr/frederic-gosselin
-    affiliation: INRAe
-    affiliation_url: https://www.inrae.fr/
-    orcid_id: 0000-0003-3737-106X
-  - name: "Isabelle Gounand"
-    url: https://isabellegounand.wordpress.com/
-    affiliation: CNRS iEES-Paris
-    affiliation_url: https://iees-paris.fr/teams/interaction-networks/
-    orcid_id: 0000-0002-0675-3973
-  - name: "Loreleï Guéry"
-    url: https://orcid.org/0000-0003-3004-8462
-    affiliation: CIRAD PHIM
-    affiliation_url: https://umr-phim.cirad.fr/
-    orcid_id: 0000-0003-3004-8462
-  - name: "François Guilhaumon"
-    url: https://fguilhaumon.gitlab.io/
-    affiliation: IRD ENTROPIE
-    affiliation_url: https://www.ird.fr/umr/entropie
-    orcid_id: 0000-0003-4707-8932
-  - name: "Claire Jacquet"
-    url: https://clairejacquet.weebly.com/
-    affiliation: CNRS ISEM
-    affiliation_url: https://isem-evolution.fr/en/
-    orcid_id: 0000-0002-7913-0689
-  - name: "Sonia Kéfi"
-    url: https://scholar.google.nl/citations?user=JcRmX4EAAAAJ&hl=fr
-    affiliation: CNRS ISEM
-    affiliation_url: https://isem-evolution.fr/en/
-    orcid_id: 0000-0002-9678-7770
-  - name: "François Massol"
-    url: https://sites.google.com/a/polytechnique.org/francoismassol/home
-    affiliation: CNRS CIIL
-    affiliation_url: https://www.ciil.fr/
-    orcid_id: 0000-0002-4098-955X
-  - name: " Dakis-Yaoba Ouédraogo"
-    url: https://www.researchgate.net/profile/Dakis-Yaoba-Ouedraogo-2
-    affiliation: UMS PatriNat
-    affiliation_url: https://www.patrinat.fr/fr
-    orcid_id: 0000-0003-2674-2259
-  - name: "Nina Schiettekatte"
-    url: http://www.criobe.pf/pro/personnel/doctorants/nina-schiettekatte/
-    affiliation: EPHE CRIOBE
-    affiliation_url: http://www.criobe.pf/
-    orcid_id: 0000-0002-1925-3484
-  - name: "Aurélie Siberchicot"
-    url: https://lbbe.univ-lyon1.fr/fr/annuaires-des-membres/siberchicot-aurelie
-    affiliation: UCBL LBBE
-    affiliation_url: https://lbbe.univ-lyon1.fr/en
-    orcid_id: 0000-0002-7638-8318
-  - name: "Romain Sordello"
-    url: https://www.biodiversite.romain-sordello.fr/
-    affiliation: UMS PatriNat
-    affiliation_url: https://www.patrinat.fr/fr
-    orcid_id: 0000-0002-7144-101X
 date: "`r format(Sys.Date(), '%m-%d-%Y')`"
 site: distill::distill_website
 ---
@@ -120,20 +25,28 @@ site: distill::distill_website
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+## Ongoing {.ongoing}
 
 <!-- Reproducible research -->
 
 <div>
 
 <div style="float: left;width: 30%;margin-right: 5%;">
+<a href="https://rdatatoolbox.github.io/">
 ![](img/logo-rdatatoolbox_150dpi.png){width=100%}
+</a>
 </div>
 
 ### Reproducible research with R
 
-...
+Since 2019 &#183; Co-organised with the [GdR EcoStat](https://sites.google.com/site/gdrecostat/)
+<br/>
+_A five-day training course on reproducibility, software development and version 
+management tools (Git, GitHub, R Markdown, Quarto, renv, Docker)_
 
 </div>
+
+**Official website:** <https://rdatatoolbox.github.io/>
 
 <br/>
 
@@ -144,17 +57,22 @@ knitr::opts_chunk$set(echo = FALSE)
 <div>
 
 <div style="float: left;width: 30%;margin-right: 5%;">
+<a href="https://theodatasci.github.io/">
 ![](img/logo-theodatasci_150dpi.png){width=100%}
+</a>
 </div>
 
 ### Theory-driven analysis of ecological data
 
-...
+Since 2022 &#183; Co-organised with the [GdR TheoMoDive](https://sete-moulis-cnrs.fr/en/research/centre-for-biodiversity-theory-and-modelling/theomodive)
+<br/>
+_A five-day training course on mathematical modelling (differential equations, Lotka Volterra, Jacobian matrices), and the statistical links between models and data._
 
 </div>
 
-<br/>
+**Official website:** <https://theodatasci.github.io/>
 
+<br/>
 
 
 <!-- Literature synthesis -->
@@ -162,17 +80,25 @@ knitr::opts_chunk$set(echo = FALSE)
 <div>
 
 <div style="float: left;width: 30%;margin-right: 5%;">
+<a href="https://literaturesynthesis.github.io/">
 ![](img/logo-literaturesynthesis_150dpi.png){width=100%}
+</a>
 </div>
 
-### Systematic reviews & Meta-analysis
+### Meta-analyses & Systematic reviews
 
-...
+Since 2022
+<br/>
+_A five-day training course on methods and techniques of meta-analyses and systematic reviews/maps applied to the field of biodiversity._
 
 </div>
+
+**Official website:** <https://literaturesynthesis.github.io/>
 
 <br/>
 
+
+## Coming soon {.coming-soon}
 
 
 <!-- Networks Analysis -->
@@ -185,7 +111,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ### Networks Analysis
 
-...
+Planned in 2024
 
 </div>
 
@@ -202,9 +128,41 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ### Artificial Intelligence & Biodiversity
 
-...
+Planned in 2024
 
 </div>
+
+
+## Finished {.finished}
+
+
+<!-- Reproducible research -->
+
+<div>
+
+<div style="float: left;width: 30%;margin-right: 5%;">
+<a href="https://frbcesab.github.io/workshop-free">
+![](img/hexasticker_mFD.png){width=100%}
+</a>
+</div>
+
+### Functional rarity and diversity in ecology
+
+2022 &#183; Co-organised with the working group [FREE](https://www.fondationbiodiversite.fr/en/the-frb-in-action/programs-and-projects/le-cesab/free/)
+<br/>
+_A four-hour training course on functional rarity and diversity in ecology 
+using the R packages [`mFD`](https://github.com/CmlMagneville/mFD) and 
+[`funrar`](https://github.com/rekyt/funrar)._
+
+</div>
+
+**Official website:** <https://frbcesab.github.io/workshop-free/>
+
+<br/>
+
+
+
+
 
 
 

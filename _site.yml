@@ -15,6 +15,12 @@ navbar:
       href: index.html
     - icon: fa fa-wrench
       href: installation.html
+    - text: Ongoing
+      href: index.html#ongoing
+    - text: Coming soon
+      href: index.html#coming-soon
+    - text: Finished
+      href: index.html#finished
     - icon: fab fa-github
       href: https://github.com/frbcesab/training-courses/
 output:
