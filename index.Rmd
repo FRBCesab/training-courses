@@ -133,6 +133,10 @@ Planned in 2024
 </div>
 
 
+<br/>
+
+
+
 ## Finished {.finished}
 
 
@@ -146,7 +150,6 @@ Planned in 2024
 </a>
 </div>
 
-<br/>
 
 ### Functional rarity and diversity in ecology
 
