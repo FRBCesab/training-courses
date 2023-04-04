@@ -1,6 +1,11 @@
 ---
 title: "FRB-CESAB Training Courses"
-description: "This website centralises all training courses provided by the FRB-CESAB and its partners"
+description: |
+  This website centralises all training courses provided by the FRB-CESAB and its partners
+  <br><br>
+  <a href="https://www.fondationbiodiversite.fr/en/about-the-foundation/le-cesab/">
+    <img class="logo" src="img/logo-CESAB.png" style="width: 65%;" />
+  </a>
 author:
   - name: "Nicolas Casajus"
     url: https://nicolascasajus.fr
@@ -24,6 +29,7 @@ site: distill::distill_website
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
+
 
 ## Ongoing {.ongoing}
 
