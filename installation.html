@@ -2174,7 +2174,6 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </ul></li>
 <li><a href="#corrections" id="toc-corrections">Corrections</a></li>
 <li><a href="#reuse" id="toc-reuse">Reuse</a></li>
-<li><a href="#citation" id="toc-citation">Citation</a></li>
 </ul>
 </nav>
 </div>
@@ -2187,49 +2186,50 @@ latest versions of <i class="fab fa-r-project" role="presentation" aria-label="r
 <p><br/></p>
 <h2 id="installation">Installation</h2>
 <h3 id="windows"><i class="fab fa-windows" role="presentation" aria-label="windows icon"></i>  Windows</h3>
-<ol type="1">
+<ul>
 <li>Install <i class="fab fa-r-project" role="presentation" aria-label="r-project icon"></i><br/>
 <i class="fas fa-link" role="presentation" aria-label="link icon"></i>  <a href="https://cran.r-project.org/">https://cran.r-project.org/</a></li>
-</ol>
+</ul>
 <p>Select <em><strong>Download R for Windows</strong></em> <code>|</code> <em><strong>Base</strong></em> <code>|</code> <em><strong>Download R 4.2.3 for Windows</strong></em>
 and follow instructions.</p>
-<ol start="2" type="1">
+<ul>
 <li>Install <strong><code>RStudio Desktop</code></strong><br/>
 <i class="fas fa-link" role="presentation" aria-label="link icon"></i>  <a href="https://posit.co/download/rstudio-desktop/">https://posit.co/download/rstudio-desktop/</a></li>
-</ol>
+</ul>
 <p>Download the version for <strong>Windows 10/11</strong> and follow instructions.</p>
-<ol start="3" type="1">
+<ul>
 <li>Install <strong><code>Rtools4.2</code></strong><br/>
 <i class="fas fa-link" role="presentation" aria-label="link icon"></i>  <a href="https://cran.r-project.org/bin/windows/Rtools/rtools42/rtools.html">https://cran.r-project.org/bin/windows/Rtools/rtools42/rtools.html</a></li>
-</ol>
+</ul>
 <p><strong><code>Rtools4.2</code></strong> is strongly recommended to install some <i class="fab fa-r-project" role="presentation" aria-label="r-project icon"></i> packages
-from sources. It contains different utilities, in particular the utility <code>make</code>.</p>
-<p>Download the 64-bit version for Windows and follow instructions.</p>
-<ol start="4" type="1">
+from sources. It contains different utilities, in particular the utility <code>make</code>.
+Download the 64-bit version for Windows and follow instructions.</p>
+<ul>
 <li>Install <strong><code>git</code></strong><br/>
 <i class="fas fa-link" role="presentation" aria-label="link icon"></i> 
 <a href="https://git-scm.com/downloads">https://git-scm.com/downloads</a></li>
-</ol>
+</ul>
 <p>Download the 64-bit version for Windows and follow instructions (select the default options).</p>
-<ol start="5" type="1">
+<ul>
 <li>Install <strong><code>pandoc</code></strong><br/>
 <i class="fas fa-link" role="presentation" aria-label="link icon"></i> 
 <a href="https://pandoc.org/">https://pandoc.org/</a></li>
-</ol>
+</ul>
 <p>The <i class="fab fa-r-project" role="presentation" aria-label="r-project icon"></i> package <a href="https://rmarkdown.rstudio.com/"><strong><code>rmarkdown</code></strong></a>
 requires the software <strong><code>pandoc</code></strong> to convert document from one format (e.g. <code>.Rmd</code>) to
-another (e.g. <code>.html</code>).</p>
-<p>Download the latest version of <strong><code>pandoc</code></strong> (file with the extension <strong>.msi</strong>) at:
+another (e.g. <code>.html</code>).
+Download the latest version of <strong><code>pandoc</code></strong> (file with the extension <strong>.msi</strong>) at:
 <a href="https://github.com/jgm/pandoc/releases/">https://github.com/jgm/pandoc/releases/</a>,
 and follow instructions.</p>
-<ol start="6" type="1">
+<ul>
 <li>Install <strong><code>Quarto</code></strong><br/>
 <i class="fas fa-link" role="presentation" aria-label="link icon"></i> 
 <a href="https://quarto.org/">https://quarto.org/</a></li>
-</ol>
+</ul>
 <p><strong><code>Quarto</code></strong> is a multi-language, next-generation version of R Markdown developed
-by <a href="https://posit.co/">Posit</a>, and includes dozens of new features and capabilities.</p>
-<p>Download the latest version of <strong><code>Quarto</code></strong> (file with the extension <strong>.msi</strong>) at:
+by <a href="https://posit.co/">Posit</a> (formely RStudio Inc.), and includes dozens of new
+features and capabilities.
+Download the latest version of <strong><code>Quarto</code></strong> (file with the extension <strong>.msi</strong>) at:
 <a href="https://quarto.org/docs/get-started/">https://quarto.org/docs/get-started/</a>,
 and follow instructions.</p>
 <p><i class="far fa-hand-point-right" role="presentation" aria-label="hand-point-right icon"></i> 
@@ -2240,9 +2240,9 @@ In addition to this software you need to install the <i class="fab fa-r-project"
 <span><span class='fu'><a href='https://rdrr.io/r/utils/install.packages.html'>install.packages</a></span><span class='op'>(</span><span class='st'>"quarto"</span><span class='op'>)</span></span></code></pre>
 </div>
 </div>
-<ol start="7" type="1">
+<ul>
 <li>Install a <strong><code>LaTeX</code></strong> distribution</li>
-</ol>
+</ul>
 <p>If you want to convert documents from <code>.Rmd</code> to <code>.pdf</code>, you will need <strong><code>LaTeX</code></strong>.
 You can install a lightened distribution using the <i class="fab fa-r-project" role="presentation" aria-label="r-project icon"></i>
 package <a href="https://yihui.org/tinytex/"><strong><code>tinytex</code></strong></a>.
@@ -2256,10 +2256,11 @@ Open <strong><code>RStudio</code></strong> and run:</p>
 <span><span class='fu'>tinytex</span><span class='fu'>::</span><span class='fu'><a href='https://rdrr.io/pkg/tinytex/man/install_tinytex.html'>install_tinytex</a></span><span class='op'>(</span><span class='op'>)</span></span></code></pre>
 </div>
 </div>
-<p><strong>Important:</strong> If you already have a <strong><code>LaTeX</code></strong> distribution, do not install <code>tinytex</code>.</p>
-<ol start="8" type="1">
+<p><i class="fas fa-triangle-exclamation" role="presentation" aria-label="triangle-exclamation icon"></i>  
+If you already have a <strong><code>LaTeX</code></strong> distribution, do not install <code>tinytex</code>.</p>
+<ul>
 <li>Check installation</li>
-</ol>
+</ul>
 <p>Open <strong><code>RStudio</code></strong> and run:</p>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
@@ -2296,12 +2297,10 @@ Open <strong><code>RStudio</code></strong> and run:</p>
 <span><span class='fu'><a href='https://rdrr.io/r/utils/install.packages.html'>install.packages</a></span><span class='op'>(</span><span class='st'>"jsonlite"</span>, type <span class='op'>=</span> <span class='st'>"source"</span><span class='op'>)</span></span></code></pre>
 </div>
 </div>
-<p><br/></p>
 <div class="box-info">
 <p><i class="far fa-bulleye" role="presentation" aria-label="bulleye icon"></i> 
 Go to the section <a href="#configuration"><strong>Configuration</strong></a> to learn how to configure <code>git</code> &amp; <code>GitHub</code></p>
 </div>
-<p><br/></p>
 <h3 id="macos"><i class="fab fa-apple" role="presentation" aria-label="apple icon"></i>  macOS</h3>
 <p>The easiest way to set up your environment is by using the package manager for macOS
 <a href="https://brew.sh"><strong><code>Homebrew</code></strong></a>. With this tool you can install (and update) your
@@ -2662,15 +2661,12 @@ Open <strong>RStudio</strong> and run:</p>
 Do not forget to restart <i class="fab fa-r-project" role="presentation" aria-label="r-project icon"></i>.</p>
 <h2 class="appendix" id="corrections">Corrections</h2>
 <p>If you see mistakes or want to suggest changes, please
-<a href="https://github.com/theodatasci/theodatasci.github.io/issues">Create an issue</a>
+<a href="https://github.com/frbcesab/training-courses/issues">Create an issue</a>
 on the source repository.</p>
 <h2 class="appendix" id="reuse">Reuse</h2>
 <p>The material of this website is licensed under Creative Commons Attribution
 <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.
-Source code is available at <a href="https://github.com/theodatasci/theodatasci.github.io/" class="uri">https://github.com/theodatasci/theodatasci.github.io/</a>.</p>
-<h2 class="appendix" id="citation">Citation</h2>
-<p>Calcagno V, Fronhofer EA, Gounand I, Jacquet C, Kéfi C &amp; Massol F (2023)
-Workshop FRB-CESAB &amp; GdR TheoMoDive: Theory-driven Analysis for Ecological Data (Edition 2023).</p>
+Source code is available at <a href="https://github.com/frbcesab/training-courses/" class="uri">https://github.com/frbcesab/training-courses/</a>.</p>
 <div class="sourceCode" id="cb17"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->

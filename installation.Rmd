@@ -33,7 +33,7 @@ latest versions of `r fontawesome::fa_i("r-project")`, `RStudio`, `Pandoc`,
 
 
 
-1. Install `r fontawesome::fa_i("r-project")`<br/>
+- Install `r fontawesome::fa_i("r-project")`<br/>
 `r fontawesome::fa_i("link")`&nbsp; [https://cran.r-project.org/](https://cran.r-project.org/)
 
 Select _**Download R for Windows**_ `|` _**Base**_ `|` _**Download R 4.2.3 for Windows**_ 
@@ -41,24 +41,23 @@ and follow instructions.
 
 
 
-2. Install **`RStudio Desktop`**<br/>
+- Install **`RStudio Desktop`**<br/>
 `r fontawesome::fa_i("link")`&nbsp; [https://posit.co/download/rstudio-desktop/](https://posit.co/download/rstudio-desktop/)
 
 Download the version for **Windows 10/11** and follow instructions.
 
 
 
-3. Install **`Rtools4.2`**<br/>
+- Install **`Rtools4.2`**<br/>
 `r fontawesome::fa_i("link")`&nbsp; [https://cran.r-project.org/bin/windows/Rtools/rtools42/rtools.html](https://cran.r-project.org/bin/windows/Rtools/rtools42/rtools.html)
 
 **`Rtools4.2`** is strongly recommended to install some `r fontawesome::fa_i("r-project")` packages 
 from sources. It contains different utilities, in particular the utility `make`.
-
 Download the 64-bit version for Windows and follow instructions.
 
 
 
-4. Install **`git`**<br/>
+- Install **`git`**<br/>
 `r fontawesome::fa_i("link")`&nbsp;
 [https://git-scm.com/downloads](https://git-scm.com/downloads)
 
@@ -66,27 +65,26 @@ Download the 64-bit version for Windows and follow instructions (select the defa
 
 
 
-5. Install **`pandoc`**<br/>
+- Install **`pandoc`**<br/>
 `r fontawesome::fa_i("link")`&nbsp;
 [https://pandoc.org/](https://pandoc.org/)
 
 The `r fontawesome::fa_i("r-project")` package [**`rmarkdown`**](https://rmarkdown.rstudio.com/) 
 requires the software **`pandoc`** to convert document from one format (e.g. `.Rmd`) to 
 another (e.g. `.html`).
-
 Download the latest version of **`pandoc`** (file with the extension **.msi**) at:
 [https://github.com/jgm/pandoc/releases/](https://github.com/jgm/pandoc/releases/),
 and follow instructions.
 
 
 
-6. Install **`Quarto`**<br/>
+- Install **`Quarto`**<br/>
 `r fontawesome::fa_i("link")`&nbsp;
 [https://quarto.org/](https://quarto.org/)
 
 **`Quarto`** is a multi-language, next-generation version of R Markdown developed 
-by [Posit](https://posit.co/), and includes dozens of new features and capabilities.
-
+by [Posit](https://posit.co/) (formely RStudio Inc.), and includes dozens of new 
+features and capabilities.
 Download the latest version of **`Quarto`** (file with the extension **.msi**) at:
 [https://quarto.org/docs/get-started/](https://quarto.org/docs/get-started/),
 and follow instructions.
@@ -101,7 +99,7 @@ install.packages("quarto")
 ```
 
 
-7. Install a **`LaTeX`** distribution
+- Install a **`LaTeX`** distribution
 
 If you want to convert documents from `.Rmd` to `.pdf`, you will need **`LaTeX`**. 
 You can install a lightened distribution using the `r fontawesome::fa_i("r-project")`
@@ -116,10 +114,11 @@ install.packages("tinytex")
 tinytex::install_tinytex()
 ```
 
-**Important:** If you already have a **`LaTeX`** distribution, do not install `tinytex`.
+`r fontawesome::fa_i("exclamation-triangle")` &nbsp; 
+If you already have a **`LaTeX`** distribution, do not install `tinytex`.
 
 
-8. Check installation
+- Check installation
 
 
 Open **`RStudio`** and run:
@@ -159,16 +158,12 @@ install.packages("jsonlite", type = "source")
 ```
 
 
-<br/>
-
 
 ::: {.box-info}
 `r fontawesome::fa_i("bulleye")`&nbsp;
 Go to the section [**Configuration**](#configuration) to learn how to configure `git` & `GitHub`
 :::
 
-
-<br/>
 
 
 
@@ -656,7 +651,7 @@ Do not forget to restart `r fontawesome::fa_i("r-project")`.
 
 
 If you see mistakes or want to suggest changes, please 
-[Create an issue](https://github.com/theodatasci/theodatasci.github.io/issues)
+[Create an issue](https://github.com/frbcesab/training-courses/issues)
 on the source repository.
 
 
@@ -666,13 +661,4 @@ on the source repository.
 
 The material of this website is licensed under Creative Commons Attribution 
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
-Source code is available at https://github.com/theodatasci/theodatasci.github.io/.
-
-
-
-## Citation {.appendix}
-
-
-
-Calcagno V, Fronhofer EA, Gounand I, Jacquet C, Kéfi C & Massol F (2023) 
-Workshop FRB-CESAB & GdR TheoMoDive: Theory-driven Analysis for Ecological Data (Edition 2023). 
+Source code is available at https://github.com/frbcesab/training-courses/.
