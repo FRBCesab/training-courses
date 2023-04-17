@@ -2342,7 +2342,8 @@ run this line and accept the license:</p>
 <p>In addition you need to install the <i class="fab fa-r-project" role="presentation" aria-label="r-project icon"></i> package <code>quarto</code>:</p>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
-<pre class="sourceCode r"><code class="sourceCode r"><span><span class='fu'><a href='https://rdrr.io/r/utils/install.packages.html'>install.packages</a></span><span class='op'>(</span><span class='st'>"quarto"</span><span class='op'>)</span></span></code></pre>
+<pre class="sourceCode r"><code class="sourceCode r"><span><span class='co'># Install quarto package ----</span></span>
+<span><span class='fu'><a href='https://rdrr.io/r/utils/install.packages.html'>install.packages</a></span><span class='op'>(</span><span class='st'>"quarto"</span><span class='op'>)</span></span></code></pre>
 </div>
 </div>
 <p>If you want to convert documents from <code>.Rmd</code> to <code>.pdf</code>, you will need <strong><code>LaTeX</code></strong>.
@@ -2408,7 +2409,7 @@ Go to the section <a href="#configuration"><strong>Configuration</strong></a> to
 <p><br/></p>
 <h3 id="ubuntu"><i class="fab fa-ubuntu" role="presentation" aria-label="ubuntu icon"></i> Ubuntu</h3>
 <p>First check your version of Ubuntu in a terminal:</p>
-<div class="sourceCode" id="cb5"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co">## Check Ubuntu version ----</span></span>
+<div class="sourceCode" id="cb5"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Check Ubuntu version ----</span></span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span> /etc/issue</span>
 <span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="co">## Ubuntu 22.04 LTS</span></span></code></pre></div>
 <p><br/></p>
@@ -2447,19 +2448,19 @@ Go to the section <a href="#configuration"><strong>Configuration</strong></a> to
 <p><br/></p>
 <p>Install <i class="fab fa-r-project" role="presentation" aria-label="r-project icon"></i> by following these steps
 (change the URL below by the one specific to your version of Ubuntu, cf. Table 1) :</p>
-<div class="sourceCode" id="cb6"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co">## Install APT utilities ----</span></span>
+<div class="sourceCode" id="cb6"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Install APT utilities ----</span></span>
 <span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> apt install build-essential software-properties-common wget</span>
 <span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="co">## Add CRAN GPG key ----</span></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Add CRAN GPG key ----</span></span>
 <span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a><span class="fu">wget</span> <span class="at">-qO-</span> https://cloud.r-project.org/bin/linux/ubuntu/marutter_pubkey.asc <span class="kw">|</span> <span class="fu">sudo</span> tee <span class="at">-a</span> /etc/apt/trusted.gpg.d/cran_ubuntu_key.asc</span>
 <span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a><span class="co">## Add CRAN repository to APT repositories list ----</span></span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Add CRAN repository to APT repositories list ----</span></span>
 <span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> add-apt-repository <span class="st">&#39;deb https://cloud.r-project.org/bin/linux/ubuntu jammy-cran40/&#39;</span></span>
 <span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a><span class="co">## Update packages list ----</span></span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Update packages list ----</span></span>
 <span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> apt update</span>
 <span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a><span class="co">## Install R ----</span></span>
+<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Install R ----</span></span>
 <span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> apt install r-base r-base-dev</span></code></pre></div>
 <p><br/></p>
 <p>To install <strong><code>RStudio Desktop</code></strong> visit this page:
@@ -2493,7 +2494,8 @@ includes dozens of new features and capabilities.</p>
 <p>In addition you need to install the <i class="fab fa-r-project" role="presentation" aria-label="r-project icon"></i> package <code>quarto</code>:</p>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
-<pre class="sourceCode r"><code class="sourceCode r"><span><span class='fu'><a href='https://rdrr.io/r/utils/install.packages.html'>install.packages</a></span><span class='op'>(</span><span class='st'>"quarto"</span><span class='op'>)</span></span></code></pre>
+<pre class="sourceCode r"><code class="sourceCode r"><span><span class='co'># Install quarto package ----</span></span>
+<span><span class='fu'><a href='https://rdrr.io/r/utils/install.packages.html'>install.packages</a></span><span class='op'>(</span><span class='st'>"quarto"</span><span class='op'>)</span></span></code></pre>
 </div>
 </div>
 <p>If you want to convert documents from <code>.Rmd</code> to <code>.pdf</code>, you will need <strong><code>LaTeX</code></strong>.
@@ -2608,11 +2610,11 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?</code></pre
 <p><br /></p>
 <p><i class="fas fa-triangle-exclamation" role="presentation" aria-label="triangle-exclamation icon"></i>   From now, you need to
 use the SSH URL when connecting to a GitHub repo.</p>
-<div class="sourceCode" id="cb16"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="co"># HTTPS URL ----</span></span>
-<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a><span class="ex">https://github.com/github_account/github_repo.git</span></span>
+<div class="sourceCode" id="cb16"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="co"># SSH URL (use this one) ----</span></span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a><span class="ex">git@github.com:github_account/github_repo.git</span></span>
 <span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a><span class="co"># SSH URL (use this one) ----</span></span>
-<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a><span class="ex">git@github.com:github_account/github_repo.git</span></span></code></pre></div>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a><span class="co"># HTTPS URL ----</span></span>
+<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a><span class="ex">https://github.com/github_account/github_repo.git</span></span></code></pre></div>
 <p><br /></p>
 <p><i class="fas fa-triangle-exclamation" role="presentation" aria-label="triangle-exclamation icon"></i>  
 If you lose your private SSH key you won’t be able to establish

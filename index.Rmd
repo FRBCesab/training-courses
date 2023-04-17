@@ -3,24 +3,24 @@ title: "FRB-CESAB Training Courses"
 description: |
   This website centralises all training courses provided by the FRB-CESAB and its partners
   <br><br>
-  <a href="https://www.fondationbiodiversite.fr/en/about-the-foundation/le-cesab/">
+  <a href="https://www.fondationbiodiversite.fr/en/the-frb-in-action/programs-and-projects/le-cesab/develop-skills/">
     <img class="logo" src="img/logo-CESAB.png" style="width: 65%;" />
   </a>
 author:
   - name: "Nicolas Casajus"
     url: https://nicolascasajus.fr
     affiliation: FRB CESAB
-    affiliation_url: https://www.fondationbiodiversite.fr/la-fondation/le-cesab/
+    affiliation_url: https://www.fondationbiodiversite.fr/en/about-the-foundation/le-cesab/
     orcid_id: 0000-0002-5537-5294
   - name: "Camille Coux"
     url: https://www.researchgate.net/profile/Camille-Coux
     affiliation: FRB CESAB
-    affiliation_url: https://www.fondationbiodiversite.fr/la-fondation/le-cesab/
+    affiliation_url: https://www.fondationbiodiversite.fr/en/about-the-foundation/le-cesab/
     orcid_id: 0000-0002-6346-9194
   - name: "Joseph Langridge"
     url: https://www.researchgate.net/profile/Joseph-Langridge
     affiliation: FRB
-    affiliation_url: https://www.fondationbiodiversite.fr
+    affiliation_url: https://www.fondationbiodiversite.fr/en/
     orcid_id: 0000-0002-9427-439X
 date: "`r format(Sys.Date(), '%m-%d-%Y')`"
 site: distill::distill_website
@@ -45,14 +45,16 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ### Reproducible research with R
 
-Since 2019 &#183; Co-organised with the [GdR EcoStat](https://sites.google.com/site/gdrecostat/)
+Since 2019&nbsp; • &nbsp;Co-organised with the [GdR EcoStat](https://sites.google.com/site/gdrecostat/)
 <br/>
 _A five-day training course on reproducibility, software development and version 
-management tools (Git, GitHub, R Markdown, Quarto, renv, Docker)_
+management tools (Research compendium, Git, GitHub, R Markdown, Quarto, renv, Docker)_
 
 </div>
 
-**Official website:** <https://rdatatoolbox.github.io/>
+**`Website:`** <https://rdatatoolbox.github.io/>
+<br/>
+**`GitHub: `** <https://github.com/rdatatoolbox/>
 
 <br/>
 
@@ -70,13 +72,15 @@ management tools (Git, GitHub, R Markdown, Quarto, renv, Docker)_
 
 ### Theory-driven analysis of ecological data
 
-Since 2022 &#183; Co-organised with the [GdR TheoMoDive](https://sete-moulis-cnrs.fr/en/research/centre-for-biodiversity-theory-and-modelling/theomodive)
+Since 2022&nbsp; • &nbsp;Co-organised with the [GdR TheoMoDive](https://sete-moulis-cnrs.fr/en/research/centre-for-biodiversity-theory-and-modelling/theomodive)
 <br/>
 _A five-day training course on mathematical modelling (differential equations, Lotka Volterra, Jacobian matrices), and the statistical links between models and data._
 
 </div>
 
-**Official website:** <https://theodatasci.github.io/>
+**`Website:`** <https://theodatasci.github.io/>
+<br/>
+**`GitHub: `** <https://github.com/theodatasci/>
 
 <br/>
 
@@ -93,13 +97,15 @@ _A five-day training course on mathematical modelling (differential equations, L
 
 ### Meta-analyses & Systematic reviews
 
-Since 2022
+Since 2022&nbsp; • &nbsp;Co-organised with the [UMS PatriNat](https://www.patrinat.fr)
 <br/>
 _A five-day training course on methods and techniques of meta-analyses and systematic reviews/maps applied to the field of biodiversity._
 
 </div>
 
-**Official website:** <https://literaturesynthesis.github.io/>
+**`Website:`** <https://literaturesynthesis.github.io/>
+<br/>
+**`GitHub: `** <https://github.com/literaturesynthesis/>
 
 <br/>
 
