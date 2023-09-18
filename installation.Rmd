@@ -36,7 +36,7 @@ latest versions of `r fontawesome::fa_i("r-project")`, `RStudio`, `Pandoc`,
 - Install `r fontawesome::fa_i("r-project")`<br/>
 `r fontawesome::fa_i("link")`&nbsp; [https://cran.r-project.org/](https://cran.r-project.org/)
 
-Select _**Download R for Windows**_ `|` _**Base**_ `|` _**Download R 4.2.3 for Windows**_ 
+Select _**Download R for Windows**_ `|` _**Base**_ `|` _**Download R 4.3.1 for Windows**_ 
 and follow instructions.
 
 
@@ -48,10 +48,10 @@ Download the version for **Windows 10/11** and follow instructions.
 
 
 
-- Install **`Rtools4.2`**<br/>
-`r fontawesome::fa_i("link")`&nbsp; [https://cran.r-project.org/bin/windows/Rtools/rtools42/rtools.html](https://cran.r-project.org/bin/windows/Rtools/rtools42/rtools.html)
+- Install **`Rtools4.3`**<br/>
+`r fontawesome::fa_i("link")`&nbsp; [https://cran.r-project.org/bin/windows/Rtools/rtools43/rtools.html](https://cran.r-project.org/bin/windows/Rtools/rtools43/rtools.html)
 
-**`Rtools4.2`** is strongly recommended to install some `r fontawesome::fa_i("r-project")` packages 
+**`Rtools4.3`** is strongly recommended to install some `r fontawesome::fa_i("r-project")` packages 
 from sources. It contains different utilities, in particular the utility `make`.
 Download the 64-bit version for Windows and follow instructions.
 
@@ -126,7 +126,7 @@ Open **`RStudio`** and run:
 ```{r echo=TRUE, eval=FALSE}
 # Get R version ----
 R.version.string
-## "R version 4.2.3 (2023-03-15)"
+## "R version 4.3.1 (2023-06-16)"
 
 # Check if git is installed ----
 Sys.which("git")
@@ -191,7 +191,7 @@ Then you can install **`Homebrew`** itself:
 
 # Check installation ----
 brew --version
-## Homebrew 4.0.9
+## Homebrew 4.1.11
 
 # Update repositories (list of available software) ----
 brew update
@@ -249,7 +249,7 @@ Open **`RStudio`** and check your installation:
 ```{r echo=TRUE, eval=FALSE}
 # Get R version ----
 R.version.string
-## "R version 4.2.3 (2023-03-15)"
+## "R version 4.3.1 (2023-06-16)"
 
 # Check if git is installed ----
 Sys.which("git")
@@ -355,20 +355,20 @@ sudo apt install r-base r-base-dev
 
 To install **`RStudio Desktop`** visit this page: 
 https://posit.co/download/rstudio-desktop/, download the
-`.deb` file for Ubuntu 22 (or Ubuntu 18+/Debian 10+ depending on your version) 
+`.deb` file for Ubuntu 22 (or Ubuntu 20/Debian 11 depending on your version) 
 and install it. 
 
 Alternatively, you can install **`RStudio Desktop`** from the terminal: 
 
 ```sh
 # Download RStudio Desktop installer (Ubuntu = 22.04) ----
-wget https://download1.rstudio.org/electron/jammy/amd64/rstudio-2023.03.0-386-amd64.deb
+wget https://download1.rstudio.org/electron/jammy/amd64/rstudio-2023.06.2-561-amd64.deb
 
 # Install RStudio Desktop ----
-sudo dpkg -i rstudio-2023.03.0-386-amd64.deb
+sudo dpkg -i rstudio-2023.06.2-561-amd64.deb
 
 # Remove installer ----
-rm rstudio-2023.03.0-386-amd64.deb
+rm rstudio-2023.06.2-561-amd64.deb
 ```
 
 
@@ -394,13 +394,13 @@ includes dozens of new features and capabilities.
 
 ```sh
 # Download Quarto installer ----
-wget https://github.com/quarto-dev/quarto-cli/releases/download/v1.3.302/quarto-1.3.302-linux-amd64.deb
+wget https://github.com/quarto-dev/quarto-cli/releases/download/v1.4.371/quarto-1.4.371-linux-amd64.deb
 
 # Install Quarto ----
-sudo dpkg -i quarto-1.3.302-linux-amd64.deb
+sudo dpkg -i quarto-1.4.371-linux-amd64.deb
 
 # Remove installer ----
-rm quarto-1.3.302-linux-amd64.deb
+rm quarto-1.4.371-linux-amd64.deb
 ```
 
 
@@ -438,7 +438,7 @@ Open **`RStudio`** and check your installation:
 ```{r echo=TRUE, eval=FALSE}
 # Get R version ----
 R.version.string
-## "R version 4.2.3 (2023-03-15)"
+## "R version 4.3.1 (2023-06-16)"
 
 # Check if git is installed ----
 Sys.which("git")
