@@ -14,7 +14,7 @@ navbar:
     - icon: fa fa-home
       href: index.html
     - icon: fa fa-wrench
-      href: installation.html
+      href: "https://frbcesab.github.io/rsetup/"
     - text: Ongoing
       href: index.html#ongoing
     - text: Coming soon
