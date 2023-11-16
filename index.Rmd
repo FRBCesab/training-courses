@@ -43,7 +43,7 @@ knitr::opts_chunk$set(echo = FALSE)
 </a>
 </div>
 
-### Reproducible research with R
+### Reproducible Research in Computational Ecology
 
 Since 2019&nbsp; • &nbsp;Co-organised with the [GdR EcoStat](https://sites.google.com/site/gdrecostat/)
 <br/>
@@ -70,7 +70,7 @@ management tools (Research compendium, Git, GitHub, R Markdown, Quarto, renv, Do
 </a>
 </div>
 
-### Theory-driven analysis of ecological data
+### Theory-driven Analysis of Ecological Data
 
 Since 2022&nbsp; • &nbsp;Co-organised with the [GdR TheoMoDive](https://sete-moulis-cnrs.fr/en/research/centre-for-biodiversity-theory-and-modelling/theomodive)
 <br/>
@@ -95,7 +95,7 @@ _A five-day training course on mathematical modelling (differential equations, L
 </a>
 </div>
 
-### Meta-analyses & Systematic reviews
+### Meta-analyses & Systematic Reviews
 
 Since 2022&nbsp; • &nbsp;Co-organised with the [UMS PatriNat](https://www.patrinat.fr)
 <br/>
@@ -148,11 +148,28 @@ Planned in 2024
 <br/>
 
 
+<!-- Biodiversity Data -->
+
+<div>
+
+<div style="float: left;width: 30%;margin-right: 5%;">
+![](img/logo-biodiversitydata_150dpi.png){width=100%}
+</div>
+
+### Data Management in Biodiversity Research
+
+Planned in 2024
+
+</div>
+
+
+<br/>
+
 
 ## Finished {.finished}
 
 
-<!-- Reproducible research -->
+<!-- FREE workshop -->
 
 <div>
 
@@ -163,7 +180,7 @@ Planned in 2024
 </div>
 
 
-### Functional rarity and diversity in ecology
+### Functional Rarity and Diversity in Ecology
 
 2022 &#183; Co-organised with the working group [FREE](https://www.fondationbiodiversite.fr/en/the-frb-in-action/programs-and-projects/le-cesab/free/)
 <br/>
